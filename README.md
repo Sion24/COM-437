@@ -1,2 +1,2 @@
 # COM-437
-Android cybersecurity awareness application project
+Movie List application project
