@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ReelList palette: gold accent on a dark "movie theater" background -->
+    <color name="gold">#FFF5C518</color>
+    <color name="ink">#FF14141F</color>
+    <color name="bg">#FF14141F</color>
+    <color name="surface">#FF1F1F2E</color>
+    <color name="surface_variant">#FF26263A</color>
+    <color name="on_surface">#FFE6E6F0</color>
+    <color name="muted">#FFB8B8CC</color>
+</resources>

@@ -1,7 +1,7 @@
 # ReelList
 
 **College term project (COM-437): Android movie and TV watchlist app**
-**Programmer:** *Sion Simmons*
+**Programmer:** *Your Name Here*
 **Current version:** v0.3.1 (Project Submission 3, Module 6, Java edition)
 **Repository:** https://github.com/Sion24/COM-437
 
@@ -23,7 +23,7 @@ Anyone is welcome to look over the code, download it, and build it to test and e
 **Landscape (Watched screen):**
 ![Landscape](docs/screens/landscape.png)
 
-*These are mockups of the v0.3.0 layouts (sample titles shown). They will be replaced with emulator screenshots in v1.0.0.*
+*These are design mockups of the v0.3.0 layouts (sample titles shown). They will be replaced with emulator screenshots in v1.0.0.*
 
 ### Wireframes
 | Hand sketch (portrait + landscape) | Digital mockup |
@@ -45,7 +45,7 @@ The full formal outline is published in the **[project Wiki](https://github.com/
 
 **VI. Design:** Same title bar / content / navigation pattern on every screen, with a Home / List / Seen bar. A checkbox always means "watched". Movie Details is the single editing hub. Landscape uses a poster grid with a rating panel.
 
-**VII. Changes:** See the Update Log below and https://github.com/Sion24/COM-437/wiki/Changelog.
+**VII. Changes:** See the Update Log below and [CHANGELOG.md](CHANGELOG.md).
 
 ## Features (v0.3.1)
 - **Home dashboard:** To Watch / Watched / Hours Watched counters, a "Pick for Tonight" random pick with a Shuffle button, and recently added and recently watched titles.
@@ -135,7 +135,7 @@ wiki/                                    # project outline pages for the GitHub 
 - Google Play release (internal testing track first)
 
 ## Update Log
-See (https://github.com/Sion24/COM-437/wiki/Changelog) for the full version history.
+See [CHANGELOG.md](CHANGELOG.md) for the full version history.
 
 **Latest update (v0.3.1):**
 - Programming language switched from Kotlin to **Java**

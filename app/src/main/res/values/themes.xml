@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Base.Theme.ReelList" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">@color/gold</item>
+        <item name="colorOnPrimary">@color/ink</item>
+        <item name="colorPrimaryContainer">#FF5C4A00</item>
+        <item name="colorOnPrimaryContainer">@color/gold</item>
+        <item name="colorSecondary">@color/gold</item>
+        <item name="colorOnSecondary">@color/ink</item>
+        <item name="colorSecondaryContainer">#FF3A3420</item>
+        <item name="colorOnSecondaryContainer">@color/gold</item>
+        <item name="android:colorBackground">@color/bg</item>
+        <item name="colorSurface">@color/bg</item>
+        <item name="colorOnSurface">@color/on_surface</item>
+        <item name="colorSurfaceVariant">@color/surface_variant</item>
+        <item name="colorOnSurfaceVariant">@color/muted</item>
+        <item name="colorSurfaceContainerLow">@color/surface</item>
+        <item name="colorSurfaceContainer">@color/surface</item>
+        <item name="colorSurfaceContainerHigh">@color/surface_variant</item>
+        <item name="colorSurfaceContainerHighest">@color/surface_variant</item>
+        <item name="android:statusBarColor">@color/bg</item>
+        <item name="android:navigationBarColor">@color/surface</item>
+        <item name="android:windowBackground">@color/bg</item>
+    </style>
+
+    <style name="Theme.ReelList" parent="Base.Theme.ReelList" />
+
+    <!-- Rounded "poster" cards used in lists and grids -->
+    <style name="ReelList.Card" parent="Widget.Material3.CardView.Filled">
+        <item name="cardBackgroundColor">@color/surface_variant</item>
+        <item name="cardCornerRadius">14dp</item>
+    </style>
+</resources>

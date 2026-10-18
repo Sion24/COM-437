@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Android 15 forces edge-to-edge; ReelList keeps classic system bars for now (see roadmap). -->
+    <style name="Theme.ReelList" parent="Base.Theme.ReelList">
+        <item name="android:windowOptOutEdgeToEdgeEnforcement">true</item>
+    </style>
+</resources>
