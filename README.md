@@ -45,7 +45,7 @@ The full formal outline is published in the **[project Wiki](https://github.com/
 
 **VI. Design:** Same title bar / content / navigation pattern on every screen, with a Home / List / Seen bar. A checkbox always means "watched". Movie Details is the single editing hub. Landscape uses a poster grid with a rating panel.
 
-**VII. Changes:** See the Update Log below and [Changelog.md](Changelog.md).
+**VII. Changes:** See the Update Log below and [Changelog.md](https://github.com/Sion24/COM-437/wiki/Changelog).
 
 ## Features (v0.3.1)
 - **Home dashboard:** To Watch / Watched / Hours Watched counters, a "Pick for Tonight" random pick with a Shuffle button, and recently added and recently watched titles.
@@ -135,7 +135,7 @@ wiki/                                    # project outline pages for the GitHub 
 - Google Play release (internal testing track first)
 
 ## Update Log
-See [CHANGELOG.md](CHANGELOG.md) for the full version history.
+See [CHANGELOG.md](https://github.com/Sion24/COM-437/wiki/Changelog) for the full version history.
 
 **Latest update (v0.3.1):**
 - Programming language switched from Kotlin to **Java**
