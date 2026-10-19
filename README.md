@@ -23,7 +23,7 @@ Anyone is welcome to look over the code, download it, and build it to test and e
 **Landscape (Watched screen):**
 ![Landscape](docs/screens/landscape.png)
 
-*These are design mockups of the v0.3.0 layouts (sample titles shown). They will be replaced with emulator screenshots in v1.0.0.*
+*These are mockups of the v0.3.0 layouts (sample titles shown). They will be replaced with emulator screenshots in v1.0.0.*
 
 ### Wireframes
 | Hand sketch (portrait + landscape) | Digital mockup |
