@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Every place the app can go. Home / List / Seen are the top-level tabs. -->
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment android:id="@+id/homeFragment" android:name="com.reellist.app.ui.screens.HomeFragment" android:label="@string/tab_home" />
+    <fragment android:id="@+id/watchlistFragment" android:name="com.reellist.app.ui.screens.WatchlistFragment" android:label="@string/tab_list" />
+    <fragment android:id="@+id/watchedFragment" android:name="com.reellist.app.ui.screens.WatchedFragment" android:label="@string/tab_seen" />
+    <fragment android:id="@+id/settingsFragment" android:name="com.reellist.app.ui.screens.SettingsFragment" android:label="@string/settings" />
+
+    <!-- movieId = -1 means "Add"; any other value means "Edit" -->
+    <fragment android:id="@+id/addEditFragment" android:name="com.reellist.app.ui.screens.AddEditMovieFragment" android:label="@string/add_movie">
+        <argument android:name="movieId" app:argType="long" android:defaultValue="-1L" />
+    </fragment>
+
+    <fragment android:id="@+id/detailsFragment" android:name="com.reellist.app.ui.screens.MovieDetailsFragment" android:label="@string/movie_details">
+        <argument android:name="movieId" app:argType="long" />
+    </fragment>
+</navigation>
